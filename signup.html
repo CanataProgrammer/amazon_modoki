@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazonアカウント作成</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="images/amazon-logo.png" alt="Amazonロゴ" class="logo">
+        <div class="signup-box">
+            <h1>アカウントを作成する</h1>
+            <form id="signupForm">
+                <label for="name">あなたの名前</label>
+                <input type="text" id="name" name="name" required placeholder="名前と苗字">
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">パスワード</label>
+                <input type="password" id="password" name="password" required placeholder="最低6文字">
+                <label for="confirmPassword">パスワード再入力</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <button type="submit">アカウントを作成</button>
+            </form>
+            <p class="notice">アカウントを作成すると、Amazonの<a href="#">利用規約</a>および<a href="#">プライバシー通知</a>に同意したことになります。</p>
+            <hr>
+            <p class="info">仕事用に購入しますか？<br><a href="#">無料のビジネスアカウントを作成する</a></p>
+            <p class="existing-user">すでにアカウントをお持ちですか？ <a href="index.html">サインイン</a></p>
+        </div>
+        <div class="footer">
+            <p>利用条件 プライバシー通知 ヘルプ</p>
+            <p>© 1996-2024, Amazon.com, Inc. またはその関連会社</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
